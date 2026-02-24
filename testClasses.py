@@ -5,6 +5,3 @@ class myClass():
     def greet(self):
         print(f"Hello, my name is {self.name}. I am {self.age} years old")
 
-p1 = myClass("John", 36)
-# Call the greet method
-myClass.greet(p1)
